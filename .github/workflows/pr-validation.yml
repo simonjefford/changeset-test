@@ -21,4 +21,4 @@ jobs:
         with:
           format: 'json'
       - name: output
-        run: echo ${{ steps.files.outputs.all }}
+        run: echo ${{ steps.changeset.outputs.all }}
